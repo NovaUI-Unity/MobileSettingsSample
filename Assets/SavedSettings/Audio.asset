@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e7b57321a1b9242a4d17ac1f1fc76f, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  Category: Audio
+  Settings:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  references:
+    version: 1
+    00000000:
+      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Master
+        value: 60
+        Min: 0
+        Max: 100
+        unitsFormat: '{0:00}%'
+    00000001:
+      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Gameplay
+        value: 30
+        Min: 0
+        Max: 100
+        unitsFormat: '{0:00}%'
+    00000002:
+      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Music - Playlists
+        value: 0
+        Min: 0
+        Max: 100
+        unitsFormat: '{0:00}%'
+    00000003:
+      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Music - Gameplay
+        value: 0
+        Min: 0
+        Max: 100
+        unitsFormat: '{0:00}%'
+    00000004:
+      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Ambient
+        value: 100
+        Min: 0
+        Max: 100
+        unitsFormat: '{0:00}%'
+    00000005:
+      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Output
+        SelectedIndex: 0
+        Options:
+        - Headphones
+        - Speakers
+        - None

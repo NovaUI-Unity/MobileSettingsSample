@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e7b57321a1b9242a4d17ac1f1fc76f, type: 3}
+  m_Name: Video
+  m_EditorClassIdentifier: 
+  Category: Video
+  Settings:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  references:
+    version: 1
+    00000000:
+      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Resolution
+        SelectedIndex: 2
+        Options:
+        - 3840 x 2160
+        - 2560 x 1440
+        - 1920 x 1080
+        - 1280 x 720
+    00000001:
+      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Anti-Aliasing
+        SelectedIndex: 1
+        Options:
+        - Off
+        - Low
+        - High
+    00000002:
+      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Quality
+        SelectedIndex: 0
+        Options:
+        - High Quality
+        - Quality
+        - Performance
+        - High Perf
+    00000003:
+      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Max FPS
+        SelectedIndex: 0
+        Options:
+        - 90
+        - 60
+        - 45
+        - 30
+    00000004:
+      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: High Quality Shaders
+        IsOn: 0
+    00000005:
+      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      data:
+        label: Depth of Field
+        IsOn: 1
