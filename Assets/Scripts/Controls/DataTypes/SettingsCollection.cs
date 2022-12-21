@@ -7,12 +7,11 @@ namespace NovaSamples.SettingsMenu
     /// <summary>
     /// A common interface to be implemented by all settings-based data types
     /// </summary>
-    public interface ISetting
+    [System.Serializable]
+    public abstract class Setting
     {
-        /// <summary>
-        /// The label to indicate the end-user setting this will configure.
-        /// </summary>
-        string Label { get; set; }
+        [Tooltip("The label to indicate the end-user setting the dropdown will configure.")]
+        public string Label = null;
     }
 
     [CreateAssetMenu(menuName = "Nova Samples/Settings Collection", fileName = "Settings Collection")]
@@ -20,10 +19,10 @@ namespace NovaSamples.SettingsMenu
     {
         [Tooltip("The settings category the list of Settings represents.")]
         public string Category;
-        
+
         [Tooltip("The list of settings for the given Category.")]
         [SerializeReference, TypeSelector]
-        public List<ISetting> Settings = new List<ISetting>();
+        public List<Setting> Settings = new List<Setting>();
     }
 
     /// <summary>

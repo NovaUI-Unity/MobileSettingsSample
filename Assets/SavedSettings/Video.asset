@@ -23,9 +23,9 @@ MonoBehaviour:
   references:
     version: 1
     00000000:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Resolution
+        Label: Resolution
         SelectedIndex: 2
         Options:
         - 3840 x 2160
@@ -33,18 +33,18 @@ MonoBehaviour:
         - 1920 x 1080
         - 1280 x 720
     00000001:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Anti-Aliasing
+        Label: Anti-Aliasing
         SelectedIndex: 1
         Options:
         - Off
         - Low
         - High
     00000002:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Quality
+        Label: Quality
         SelectedIndex: 0
         Options:
         - High Quality
@@ -52,9 +52,9 @@ MonoBehaviour:
         - Performance
         - High Perf
     00000003:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Max FPS
+        Label: Max FPS
         SelectedIndex: 0
         Options:
         - 90
@@ -62,12 +62,12 @@ MonoBehaviour:
         - 45
         - 30
     00000004:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: High Quality Shaders
+        Label: High Quality Shaders
         IsOn: 0
     00000005:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Depth of Field
+        Label: Depth of Field
         IsOn: 1

@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 685.9531, y: 0}
+  m_AnchoredPosition: {x: 658.0292, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &8698635602933484588
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4916019461444808234, guid: 118c1f3185afa4d538881a3a523944b8, type: 2}
+  - {fileID: 1805697429188284346, guid: e41c22070bd094b27b5823c3bc0574e1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   layout:
     Size:
       X:
-        Raw: 171.90625
+        Raw: 116.05834
         Type: 0
       Y:
         Raw: 56.664
@@ -280,8 +280,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Units
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 118c1f3185afa4d538881a3a523944b8, type: 2}
-  m_sharedMaterial: {fileID: -4916019461444808234, guid: 118c1f3185afa4d538881a3a523944b8,
+  m_fontAsset: {fileID: 11400000, guid: e41c22070bd094b27b5823c3bc0574e1, type: 2}
+  m_sharedMaterial: {fileID: 1805697429188284346, guid: e41c22070bd094b27b5823c3bc0574e1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -306,8 +306,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0.5
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 200
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -887,7 +887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 214.2604, y: 0}
+  m_AnchoredPosition: {x: 232.275, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &4030385294111272363
@@ -909,7 +909,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4916019461444808234, guid: 118c1f3185afa4d538881a3a523944b8, type: 2}
+  - {fileID: 1805697429188284346, guid: e41c22070bd094b27b5823c3bc0574e1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -960,10 +960,10 @@ MonoBehaviour:
   layout:
     Size:
       X:
-        Raw: 201.47917
+        Raw: 165.45001
         Type: 0
       Y:
-        Raw: 63.840004
+        Raw: 56.928005
         Type: 0
       Z:
         Raw: 0
@@ -1131,16 +1131,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: SLIDER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 118c1f3185afa4d538881a3a523944b8, type: 2}
-  m_sharedMaterial: {fileID: -4916019461444808234, guid: 118c1f3185afa4d538881a3a523944b8,
+  m_fontAsset: {fileID: 11400000, guid: e41c22070bd094b27b5823c3bc0574e1, type: 2}
+  m_sharedMaterial: {fileID: 1805697429188284346, guid: e41c22070bd094b27b5823c3bc0574e1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4290770175
-  m_fontColor: {r: 1, g: 0.95866144, b: 0.75, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1157,8 +1157,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0.5
@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 200
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1228,7 +1228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5450999443843530760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -115, y: 0, z: 0}
+  m_LocalPosition: {x: -125, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4827008458933219788}
@@ -1414,43 +1414,43 @@ MonoBehaviour:
     ReceiveShadows: 1
   PreviewSize: {x: 1, y: 1, z: 0}
   visuals:
-    Color: {r: 1, g: 0.8666667, b: 0.22745098, a: 1}
+    Color: {r: 0, g: 0.3333335, b: 0.5, a: 1}
     CornerRadius:
       Raw: 1
       Type: 1
     Gradient:
-      Color: {r: 1, g: 0.6666667, b: 0, a: 1}
+      Color: {r: 0, g: 0.6666665, b: 1, a: 1}
       Center:
         X:
-          Raw: 0
+          Raw: 0.5
           Type: 1
         Y:
-          Raw: -0.5
+          Raw: 0
           Type: 1
       Radius:
         X:
-          Raw: 0
+          Raw: 1.1
           Type: 1
         Y:
-          Raw: 1
+          Raw: 0
           Type: 1
       Rotation: 0
-      Enabled: 1
+      Enabled: 0
     Border:
       Color: {r: 0.16078432, g: 0.26666668, b: 0.46666667, a: 1}
       Width:
-        Raw: 0.002
+        Raw: 1
         Type: 0
       Enabled: 0
       Direction: 1
     Shadow:
-      Color: {r: 0, g: 0, b: 0, a: 1}
+      Color: {r: 0, g: 0.6666665, b: 1, a: 1}
       Width:
         Raw: 0
         Type: 1
       Blur:
-        Raw: 0.1
-        Type: 1
+        Raw: 20
+        Type: 0
       Offset:
         X:
           Raw: 0
@@ -1458,8 +1458,8 @@ MonoBehaviour:
         Y:
           Raw: 0
           Type: 1
-      Enabled: 0
-      Direction: 0
+      Enabled: 1
+      Direction: 1
     Image:
       Adjustment:
         CenterUV: {x: 0, y: 0}
@@ -1496,7 +1496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5469613014300672739}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 115, y: 0, z: 0}
+  m_LocalPosition: {x: 125, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4531339283192340367}
@@ -1531,17 +1531,17 @@ MonoBehaviour:
   layout:
     Size:
       X:
-        Raw: 30
+        Raw: 70
         Type: 0
       Y:
-        Raw: 100
+        Raw: 70
         Type: 0
       Z:
         Raw: 0
         Type: 0
     Position:
       X:
-        Raw: -15
+        Raw: -35
         Type: 0
       Y:
         Raw: 0
@@ -1681,12 +1681,12 @@ MonoBehaviour:
     ReceiveShadows: 1
   PreviewSize: {x: 1, y: 1, z: 0}
   visuals:
-    Color: {r: 1, g: 0.8117648, b: 0.16470589, a: 1}
+    Color: {r: 1, g: 1, b: 1, a: 1}
     CornerRadius:
-      Raw: 15
-      Type: 0
+      Raw: 1
+      Type: 1
     Gradient:
-      Color: {r: 1, g: 0.8894253, b: 0.51900005, a: 1}
+      Color: {r: 1, g: 1, b: 1, a: 1}
       Center:
         X:
           Raw: -0.5
@@ -1704,23 +1704,23 @@ MonoBehaviour:
       Rotation: 0
       Enabled: 0
     Border:
-      Color: {r: 1, g: 0.89019614, b: 0.5176471, a: 1}
+      Color: {r: 0, g: 0.65891504, b: 1, a: 1}
       Width:
-        Raw: 1
+        Raw: 4
         Type: 0
       Enabled: 1
       Direction: 2
     Shadow:
-      Color: {r: 1, g: 1, b: 1, a: 1}
+      Color: {r: 0, g: 0.666667, b: 1, a: 1}
       Width:
-        Raw: 0
+        Raw: 8
         Type: 0
       Blur:
         Raw: 20
         Type: 0
       Offset:
         X:
-          Raw: -5
+          Raw: 0
           Type: 0
         Y:
           Raw: 0
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 2464270313545840169}
   - component: {fileID: 657701952853373594}
   m_Layer: 0
-  m_Name: SettingsSlider
+  m_Name: SettingsSlider_SciFi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2096,7 +2096,7 @@ MonoBehaviour:
         Raw: 500
         Type: 0
       Y:
-        Raw: 80
+        Raw: 40
         Type: 0
       Z:
         Raw: 0
@@ -2113,16 +2113,16 @@ MonoBehaviour:
         Type: 0
     Padding:
       Left:
-        Raw: 20
+        Raw: 0
         Type: 0
       Right:
-        Raw: 20
+        Raw: 0
         Type: 0
       Bottom:
-        Raw: 20
+        Raw: 0
         Type: 0
       Top:
-        Raw: 20
+        Raw: 0
         Type: 0
       Front:
         Raw: 0
@@ -2243,7 +2243,7 @@ MonoBehaviour:
     ReceiveShadows: 1
   PreviewSize: {x: 1, y: 1, z: 0}
   visuals:
-    Color: {r: 0.3176471, g: 0.6444444, b: 0.80784315, a: 1}
+    Color: {r: 0, g: 0.13333334, b: 0.2, a: 1}
     CornerRadius:
       Raw: 1
       Type: 1
@@ -2266,28 +2266,28 @@ MonoBehaviour:
       Rotation: 0
       Enabled: 0
     Border:
-      Color: {r: 0.2239496, g: 0.37142864, b: 0.65, a: 1}
+      Color: {r: 0, g: 0.6630435, b: 1, a: 1}
       Width:
-        Raw: 0.005
+        Raw: 4
         Type: 0
-      Enabled: 0
-      Direction: 1
+      Enabled: 1
+      Direction: 0
     Shadow:
-      Color: {r: 0.121568605, g: 0.4431372, b: 0.6039216, a: 1}
+      Color: {r: 0, g: 0, b: 0, a: 1}
       Width:
-        Raw: 5
+        Raw: 2
         Type: 0
       Blur:
-        Raw: 5
+        Raw: 2
         Type: 0
       Offset:
         X:
-          Raw: 2.5
+          Raw: 0
           Type: 0
         Y:
-          Raw: 2.5
+          Raw: 0
           Type: 0
-      Enabled: 1
+      Enabled: 0
       Direction: 1
     Image:
       Adjustment:

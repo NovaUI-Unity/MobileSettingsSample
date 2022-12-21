@@ -5,7 +5,7 @@ using UnityEngine;
 namespace NovaSamples.SettingsMenu
 {
     /// <summary>
-    /// The <see cref="ItemVisuals"/> type used to display a <see cref="DropdownSetting"/> control and its list of selectable options.
+    /// The <see cref="ItemVisuals"/> type used to display a <see cref="MultiOptionSetting"/> control and its list of selectable options.
     /// </summary>
     [Serializable]
     public class DropdownVisuals : ItemVisuals
@@ -41,7 +41,7 @@ namespace NovaSamples.SettingsMenu
         /// <summary>
         /// The datasource used to populate this dropdown control and its list of options.
         /// </summary>
-        public DropdownSetting DataSource { get; private set; }
+        public MultiOptionSetting DataSource { get; private set; }
 
         /// <summary>
         /// Is the dropdown list open?
@@ -56,7 +56,7 @@ namespace NovaSamples.SettingsMenu
         /// <see cref="OptionsView"/> with the options in the datasource.
         /// </summary>
         /// <param name="dataSource">The datasource to populate this dropdown's list of options.</param>
-        public void Expand(DropdownSetting dataSource)
+        public void Expand(MultiOptionSetting dataSource)
         {
             // Cache the current datasource, so we can update it in 
             // the event a new option is selected from the dropdown.
@@ -120,11 +120,11 @@ namespace NovaSamples.SettingsMenu
         }
 
         /// <summary>
-        /// Event handler to react to a list item in the dropdown (bound to one of the options in <see cref="DropdownSetting.Options"/>) being selected.
+        /// Event handler to react to a list item in the dropdown (bound to one of the options in <see cref="MultiOptionSetting.Options"/>) being selected.
         /// </summary>
         /// <param name="evt">The click event.</param>
         /// <param name="option">The <see cref="ItemVisuals"/> object that was selected.</param>
-        /// <param name="index">The index into <see cref="DropdownSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
+        /// <param name="index">The index into <see cref="MultiOptionSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
         public void HandleOptionSelected(Gesture.OnClick evt, ButtonVisuals option, int index)
         {
             // If a new option was selected, update the datasource. 
@@ -159,7 +159,7 @@ namespace NovaSamples.SettingsMenu
         /// </summary>
         /// <param name="evt">The cancel event.</param>
         /// <param name="option">The <see cref="ItemVisuals"/> object targeted by the event.</param>
-        /// <param name="index">The index into <see cref="DropdownSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
+        /// <param name="index">The index into <see cref="MultiOptionSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
         private void HandleOptionPressCanceled(Gesture.OnCancel evt, ButtonVisuals option, int index)
         {
             // Restore the background color to its default value
@@ -171,7 +171,7 @@ namespace NovaSamples.SettingsMenu
         /// </summary>
         /// <param name="evt">The release event.</param>
         /// <param name="option">The <see cref="ItemVisuals"/> object targeted by the event.</param>
-        /// <param name="index">The index into <see cref="DropdownSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
+        /// <param name="index">The index into <see cref="MultiOptionSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
         private void HandleOptionReleased(Gesture.OnRelease evt, ButtonVisuals option, int index)
         {
             // Restore the background color to its default value
@@ -183,7 +183,7 @@ namespace NovaSamples.SettingsMenu
         /// </summary>
         /// <param name="evt">The press event.</param>
         /// <param name="option">The <see cref="ItemVisuals"/> object targeted by the event.</param>
-        /// <param name="index">The index into <see cref="DropdownSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
+        /// <param name="index">The index into <see cref="MultiOptionSetting.Options"/> of the object represented by <paramref name="option"/>.</param>
         private void HandleOptionPressed(Gesture.OnPress evt, ButtonVisuals option, int index)
         {
             // Indicate the press is occuring by changing the pressed visual's background color

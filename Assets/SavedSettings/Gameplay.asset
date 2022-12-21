@@ -23,47 +23,47 @@ MonoBehaviour:
   references:
     version: 1
     00000000:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Text Chat
+        Label: Text Chat
         SelectedIndex: 0
         Options:
         - Allow All
         - Friends Only
         - Disabled
     00000001:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Split Screen Layout
+        Label: Split Screen Layout
         SelectedIndex: 0
         Options:
         - Vertical
         - Horizontal
     00000002:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Cross Platform Play
+        Label: Cross Platform Play
         IsOn: 1
     00000003:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Client Send Rate
+        Label: Client Send Rate
         SelectedIndex: 0
         Options:
         - High
         - Medium
         - Low
     00000004:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Server Send Rate
+        Label: Server Send Rate
         SelectedIndex: 0
         Options:
         - High
         - Medium
         - Low
     00000005:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Show Extra Mode Ranks
+        Label: Show Extra Mode Ranks
         IsOn: 1

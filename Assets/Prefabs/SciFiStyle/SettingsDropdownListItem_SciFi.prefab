@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4916019461444808234, guid: 118c1f3185afa4d538881a3a523944b8, type: 2}
+  - {fileID: 1805697429188284346, guid: e41c22070bd094b27b5823c3bc0574e1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -280,8 +280,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Selected
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 118c1f3185afa4d538881a3a523944b8, type: 2}
-  m_sharedMaterial: {fileID: -4916019461444808234, guid: 118c1f3185afa4d538881a3a523944b8,
+  m_fontAsset: {fileID: 11400000, guid: e41c22070bd094b27b5823c3bc0574e1, type: 2}
+  m_sharedMaterial: {fileID: 1805697429188284346, guid: e41c22070bd094b27b5823c3bc0574e1,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 200
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 5080612183395840968}
   - component: {fileID: 5009183015828262083}
   m_Layer: 0
-  m_Name: SettingsDropdownListItem
+  m_Name: SettingsDropdownListItem_SciFi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
     ReceiveShadows: 1
   PreviewSize: {x: 400, y: 80, z: 0}
   visuals:
-    Color: {r: 0.3176471, g: 0.6444444, b: 0.80784315, a: 1}
+    Color: {r: 0, g: 0.13333334, b: 0.2, a: 1}
     CornerRadius:
       Raw: 0
       Type: 1
@@ -588,12 +588,12 @@ MonoBehaviour:
       Rotation: 0
       Enabled: 0
     Border:
-      Color: {r: 1, g: 0.83137256, b: 0.16078432, a: 1}
+      Color: {r: 0, g: 0.6666665, b: 1, a: 1}
       Width:
-        Raw: 8
+        Raw: 4
         Type: 0
       Enabled: 1
-      Direction: 2
+      Direction: 1
     Shadow:
       Color: {r: 0.121568605, g: 0.4431372, b: 0.6039216, a: 1}
       Width:

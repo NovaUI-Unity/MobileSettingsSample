@@ -216,6 +216,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0, g: 0.75862074, b: 1, a: 0.5019608}
       Center:
@@ -262,6 +273,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -284,6 +296,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -504,6 +544,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.6833334, g: 0, b: 1, a: 0.5019608}
       Center:
@@ -550,6 +601,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -572,6 +624,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -792,6 +872,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.6833334, g: 0, b: 1, a: 0.5019608}
       Center:
@@ -838,6 +929,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -860,6 +952,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -1080,6 +1200,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 1, g: 0.6, b: 0, a: 0.5019608}
       Center:
@@ -1126,6 +1257,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -1148,6 +1280,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -1179,7 +1339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4309253531162358568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 920.973, y: 0, z: 0}
+  m_LocalPosition: {x: 908, y: 0.45200002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4856582655125897620}
@@ -1224,10 +1384,10 @@ MonoBehaviour:
         Type: 0
     Position:
       X:
-        Raw: -84.97302
+        Raw: -72
         Type: 0
       Y:
-        Raw: 0
+        Raw: -0.45200002
         Type: 0
       Z:
         Raw: 0
@@ -1368,6 +1528,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 20
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.5165116, g: 0.505, b: 1, a: 1}
       Center:
@@ -1414,6 +1585,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -1436,6 +1608,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 0
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 1
@@ -1467,7 +1667,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4856582655075684418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -110, z: 0}
+  m_LocalPosition: {x: 0, y: -65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4856582656469502274}
@@ -1515,7 +1715,7 @@ MonoBehaviour:
         Raw: 0
         Type: 0
       Y:
-        Raw: 195
+        Raw: 150
         Type: 0
       Z:
         Raw: 0
@@ -1656,6 +1856,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 0
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 1, g: 1, b: 1, a: 1}
       Center:
@@ -1702,6 +1913,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -1750,7 +1962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4856582655125897623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -80, z: 0}
+  m_LocalPosition: {x: 0, y: -60, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7090760598027502486}
@@ -1790,7 +2002,7 @@ MonoBehaviour:
         Raw: 0.93043476
         Type: 1
       Y:
-        Raw: 530
+        Raw: 600
         Type: 0
       Z:
         Raw: 0
@@ -1800,7 +2012,7 @@ MonoBehaviour:
         Raw: 0
         Type: 0
       Y:
-        Raw: 335
+        Raw: 280
         Type: 0
       Z:
         Raw: 0
@@ -1941,6 +2153,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 25
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0, g: 0.769608, b: 1, a: 0.69803923}
       Center:
@@ -1987,6 +2210,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -2005,8 +2229,9 @@ GameObject:
   - component: {fileID: 519368553855347420}
   - component: {fileID: 4856582655538831795}
   - component: {fileID: 6576139455548984682}
+  - component: {fileID: 2620532834112956333}
   m_Layer: 0
-  m_Name: SettingsPanel
+  m_Name: SettingsMenu_Toon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2213,6 +2438,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 0
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.54330295, g: 0.8215117, b: 0.90099996, a: 1}
       Center:
@@ -2259,6 +2495,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -2277,26 +2514,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd68da78ed32f684087516a4fe008ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIRoot: {fileID: 4856582655538831795}
+  TabBar: {fileID: 3019753479419826270}
   SettingsTabs:
   - {fileID: 11400000, guid: c754c16913176434aaeee9b28093d375, type: 2}
   - {fileID: 11400000, guid: 686f58f1ed547fa4f9dc640b8278c080, type: 2}
   - {fileID: 11400000, guid: 542b93ef001f1294d8ee4c2b69e8e3b0, type: 2}
   - {fileID: 11400000, guid: 6088d59bf838bb446bc526a02962daae, type: 2}
   - {fileID: 11400000, guid: 2e178abcb7396ec42b1a9844535e8d98, type: 2}
-  BubbleRoot: {fileID: 2439734534052066429}
-  BubbleCollisionMask:
-    serializedVersion: 2
-    m_Bits: 64
-  BubbleVelocity: 50
-  SettingsTabView: {fileID: 3019753479419826270}
-  SettingsControlsView: {fileID: 9094960128914283918}
-  SettingsControlsViewScroller: {fileID: 4159123449860992169}
+  SettingsList: {fileID: 9094960128914283918}
+  SettingsScroller: {fileID: 4159123449860992169}
   BackButton: {fileID: 3446608224435744879}
-  ResetButton: {fileID: 7626179759528802671}
-  SelectedColor: {r: 0.33333325, g: 1, b: 0, a: 1}
-  DefaultColor: {r: 0, g: 0.5372549, b: 0.80784315, a: 1}
-  PressedAccentColor: {r: 0, g: 0.5372549, b: 0.80784315, a: 1}
-  DefaultAccentColor: {r: 0, g: 0.9137255, b: 0.99607843, a: 1}
+--- !u!114 &2620532834112956333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655538831794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0e5f112b0a05b43b4ba50233a47743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstructDrags: 0
+  DragThreshold: 1
+  LowAccuracyDragThreshold: 30
+  ClickBehavior: 2
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+  draggable:
+    X: 0
+    Y: 0
+    Z: 0
 --- !u!1 &4856582656469502285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,6 +2791,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 0
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 1, g: 1, b: 1, a: 1}
       Center:
@@ -2561,6 +2848,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -2582,6 +2870,7 @@ MonoBehaviour:
   info:
     SortingOrder: 1
     RenderQueue: 3000
+    RenderOverOpaqueGeometry: 0
 --- !u!1 &4856582656813194046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,7 +2901,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3446608224435744872}
-  - {fileID: 7626179759528802664}
   m_Father: {fileID: 4856582655538831793}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2799,6 +3087,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 0
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 1, g: 1, b: 1, a: 1}
       Center:
@@ -2845,6 +3144,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -3067,6 +3367,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.51666665, g: 1, b: 0, a: 0.5019608}
       Center:
@@ -3113,6 +3424,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -3135,6 +3447,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -3168,7 +3508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6062684820121005669}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4856582655125897620}
@@ -3206,7 +3546,7 @@ MonoBehaviour:
         Raw: 1
         Type: 1
       Y:
-        Raw: 450
+        Raw: 560
         Type: 0
       Z:
         Raw: 0
@@ -3216,7 +3556,7 @@ MonoBehaviour:
         Raw: 0
         Type: 0
       Y:
-        Raw: 30
+        Raw: 0
         Type: 0
       Z:
         Raw: 0
@@ -3319,7 +3659,7 @@ MonoBehaviour:
         Max: Infinity
     Alignment:
       X: 0
-      Y: -1
+      Y: 0
       Z: 0
     AutoSize:
       X: 1
@@ -3331,7 +3671,7 @@ MonoBehaviour:
   autoLayout:
     Axis: 2
     Spacing:
-      Raw: 40
+      Raw: 60
       Type: 0
     SpacingMinMax:
       Min: 0
@@ -3357,6 +3697,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 25
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.19999999, g: 0.8153847, b: 1, a: 0.75686276}
       Center:
@@ -3403,6 +3754,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -3424,7 +3776,6 @@ MonoBehaviour:
   listItemPrefabs:
   - {fileID: 7623978411554998604, guid: 5110262c096a7cc48aefc037d8bdd714, type: 3}
   - {fileID: 7001414686792611882, guid: 5204c313a08944c4ba34f70bc85ef64e, type: 3}
-  - {fileID: 7001414686792611882, guid: e975d62acb96ea74ba56a42a646bfa96, type: 3}
   - {fileID: 657701952853373594, guid: af783cadb8f3de24a8c7454b958f6545, type: 3}
   outOfViewDistance: 0
   _uiBlock: {fileID: 0}
@@ -3459,6 +3810,35 @@ MonoBehaviour:
   ObstructDrags: 0
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
+  ClickBehavior: 0
+  navigable: 1
+  onSelect: 2
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   OverscrollEffect: 0
   VectorScrollMultiplier: 10
   dragScrolling: 1
@@ -3681,6 +4061,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0, g: 0.75862074, b: 1, a: 0.5019608}
       Center:
@@ -3727,6 +4118,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -3749,6 +4141,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -3764,6 +4184,7 @@ GameObject:
   - component: {fileID: 3388306261302823429}
   - component: {fileID: 8208327669610765893}
   - component: {fileID: 2439734534052066429}
+  - component: {fileID: 5852804183846542029}
   m_Layer: 0
   m_Name: Bubbles
   m_TagString: Untagged
@@ -3971,6 +4392,23 @@ MonoBehaviour:
     ShadowCastingMode: 2
     ReceiveShadows: 1
   PreviewSize: {x: 1, y: 1, z: 0}
+--- !u!114 &5852804183846542029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724835681496747499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330ca9bf454af4e4b9dd98257edf8c47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BubbleRoot: {fileID: 2439734534052066429}
+  BubbleCollisionMask:
+    serializedVersion: 2
+    m_Bits: 64
+  BubbleVelocity: 50
 --- !u!1 &7703006175459270850
 GameObject:
   m_ObjectHideFlags: 0
@@ -4187,6 +4625,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 0.51666665, g: 1, b: 0, a: 0.5019608}
       Center:
@@ -4233,6 +4682,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -4255,6 +4705,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -4475,6 +4953,17 @@ MonoBehaviour:
     CornerRadius:
       Raw: 100
       Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
     Gradient:
       Color: {r: 1, g: 0.6, b: 0, a: 0.5019608}
       Center:
@@ -4521,6 +5010,7 @@ MonoBehaviour:
       Adjustment:
         CenterUV: {x: 0, y: 0}
         UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
         scaleMode: 1
       Mode: 1
     SoftenEdges: 1
@@ -4543,6 +5033,34 @@ MonoBehaviour:
   DragThreshold: 1
   LowAccuracyDragThreshold: 30
   ClickBehavior: 1
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
   draggable:
     X: 0
     Y: 0
@@ -4572,7 +5090,7 @@ PrefabInstance:
     - target: {fileID: 876412077756198015, guid: 04ec22a7dd01911419d8e6c20cc17319,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.440063
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 876412077756198015, guid: 04ec22a7dd01911419d8e6c20cc17319,
         type: 3}
@@ -4626,6 +5144,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7437225221291858452, guid: 04ec22a7dd01911419d8e6c20cc17319,
         type: 3}
+      propertyPath: layout.Alignment.Y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437225221291858452, guid: 04ec22a7dd01911419d8e6c20cc17319,
+        type: 3}
+      propertyPath: layout.Position.Y.Raw
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437225221291858452, guid: 04ec22a7dd01911419d8e6c20cc17319,
+        type: 3}
       propertyPath: layout.Margin.Left.Raw
       value: 80
       objectReference: {fileID: 0}
@@ -4652,208 +5180,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2042289948747451082}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2566020876563500665
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4450976897101359548}
-    m_Modifications:
-    - target: {fileID: 932808559960311902, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 44.8175
-      objectReference: {fileID: 0}
-    - target: {fileID: 2994751624918975645, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.b
-      value: 0.22745097
-      objectReference: {fileID: 0}
-    - target: {fileID: 2994751624918975645, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.g
-      value: 0.9019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 2994751624918975645, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.r
-      value: 0.8457517
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078403040316020, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_text
-      value: RESET
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078403040316022, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: layout.Size.X.Raw
-      value: 174.0875
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060176, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_Name
-      value: Reset
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060176, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -563.09375
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060182, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: layout.Size.X.Raw
-      value: 238.0875
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060182, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: layout.Alignment.X
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353078404016060182, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: layout.Position.X.Raw
-      value: 237.8625
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.g
-      value: 0.80784315
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.r
-      value: 0.6732026
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: layout.Size.X.Raw
-      value: 238.0875
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Border.Color.b
-      value: 0.24313724
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Border.Color.g
-      value: 0.69803923
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Border.Color.r
-      value: 0.6601308
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Gradient.Color.g
-      value: 0.99607843
-      objectReference: {fileID: 0}
-    - target: {fileID: 5790870874839492189, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Gradient.Color.r
-      value: 0.99607843
-      objectReference: {fileID: 0}
-    - target: {fileID: 6847388646225684913, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -68.22624
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643218650351625481, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.b
-      value: 0.22745097
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643218650351625481, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.g
-      value: 0.9019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643218650351625481, guid: 49ff10061da847244969f3065cb8b29c,
-        type: 3}
-      propertyPath: visuals.Color.r
-      value: 0.8457517
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 49ff10061da847244969f3065cb8b29c, type: 3}
---- !u!4 &7626179759528802664 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2566020876563500665}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7626179759528802671 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5353078404016060182, guid: 49ff10061da847244969f3065cb8b29c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2566020876563500665}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7322074097614030713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4933,6 +5259,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49ff10061da847244969f3065cb8b29c, type: 3}
+--- !u!4 &3446608224435744872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7322074097614030713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3446608224435744879 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5353078404016060182, guid: 49ff10061da847244969f3065cb8b29c,
@@ -4945,9 +5277,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &3446608224435744872 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5353078404016060177, guid: 49ff10061da847244969f3065cb8b29c,
-    type: 3}
-  m_PrefabInstance: {fileID: 7322074097614030713}
-  m_PrefabAsset: {fileID: 0}

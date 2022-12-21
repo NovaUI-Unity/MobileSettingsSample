@@ -23,46 +23,46 @@ MonoBehaviour:
   references:
     version: 1
     00000000:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Steering Sensitivity
+        Label: Steering Sensitivity
         value: 2
         Min: 1
         Max: 10
         unitsFormat: '{0:0.00}'
     00000001:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Aerial Sensitivity
+        Label: Aerial Sensitivity
         value: 2
         Min: 0
         Max: 10
         unitsFormat: '{0:0.00}'
     00000002:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Deadzone
+        Label: Deadzone
         value: 0
         Min: 0
         Max: 1
         unitsFormat: '{0:0.00}'
     00000003:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Vibrations
+        Label: Vibrations
         SelectedIndex: 0
         Options:
         - Enabled
         - Disabled
     00000004:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Push To Talk
+        Label: Push To Talk
         IsOn: 1
     00000005:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Acceleration Time
+        Label: Acceleration Time
         value: 0
         Min: 0
         Max: 5

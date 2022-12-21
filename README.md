@@ -14,14 +14,15 @@ This sample does not include Nova, which must be imported before the sample can 
 
 ## Script Highlights
 
-- [`SettingsMenu`](Assets/Scripts/SettingsMenu.cs): The root-level UI controller responsible for displaying a list of [`SettingsCollections`](Assets/Scripts/Controls/DataTypes/SettingsCollection.cs), where each collection is represented by a tab button in a tab bar. When one of the tabs in the tab bar is selected, its corresponding list of settings will be provided to [`SettingControls`](Assets/Scripts/SettingControls.cs) to populate a set of UI controls.
-- [`SettingControls`](Assets/Scripts/SettingControls.cs): A UI Component resposible for binding a variety of UI controls (Toggles, Sliders, Dropdowns, etc.) to a [ListView](https://www.novaui.io/manual/ListView.html) and updating the underlying data source as each control is manipulated by the user.
+- [`SettingsMenu`](Assets/Scripts/SettingsMenu.cs): The root-level UI controller responsible for displaying a list of [`SettingsCollections`](Assets/Scripts/Controls/DataTypes/SettingsCollection.cs), where each collection is represented by a tab button in a tab bar. When one of the tabs in the tab bar is selected, its corresponding list of settings will be used to populate a set of UI controls.
 - [`SettingsCollection`](Assets/Scripts/Controls/DataTypes/SettingsCollection.cs): A ScriptableObject containing a serialized list of [Toggle](Assets/Scripts/Controls/DataTypes/ToggleSetting.cs), [Slider](Assets/Scripts/Controls/DataTypes/SliderSetting.cs), and/or [Dropdown](Assets/Scripts/Controls/DataTypes/DropdownSetting.cs) settings which are provided to the [`SettingsMenu`](Assets/Scripts/SettingsMenu.cs) as the data source.
 
 ## Scenes
 
-- `Scenes/SettingsMenu`: PC (Mouse), Mobile (Touch)
+- `Scenes/SettingsMenu_Toon`: PC (Mouse), Mobile (Touch)
+- `Scenes/SettingsMenu_SciFi`: PC (Mouse), Mobile (Touch)
 
 ## Attributions
 
 - Bangers Font: https://fonts.google.com/specimen/Bangers
+- Electrolize Font: https://fonts.google.com/specimen/Electrolize

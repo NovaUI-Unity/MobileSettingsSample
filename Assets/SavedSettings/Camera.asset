@@ -27,9 +27,9 @@ MonoBehaviour:
   references:
     version: 1
     00000000:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Camera Preset
+        Label: Camera Preset
         SelectedIndex: 5
         Options:
         - Default
@@ -43,68 +43,68 @@ MonoBehaviour:
         - Misc
         - No Thanks
     00000001:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Camera Shake
+        Label: Camera Shake
         IsOn: 0
     00000002:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Field of View
+        Label: Field of View
         value: 69.9174
         Min: 0
         Max: 180
         unitsFormat: "{0:0.00}\xB0"
     00000003:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Distance
+        Label: Distance
         value: 262.42508
         Min: 0
         Max: 400
         unitsFormat: '{0:0.00}'
     00000004:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Height
+        Label: Height
         value: 99.63187
         Min: 0
         Max: 200
         unitsFormat: '{0:0.00}'
     00000005:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Angle
+        Label: Angle
         value: -4.2102723
         Min: -15
         Max: 0
         unitsFormat: '{0:0.00}'
     00000006:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Stiffness
+        Label: Stiffness
         value: 0.48210132
         Min: 0
         Max: 1
         unitsFormat: '{0:0.00}'
     00000007:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Swivel Speed
+        Label: Swivel Speed
         value: 10.819616
         Min: 0
         Max: 20
         unitsFormat: '{0:0.00}'
     00000008:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Transition Speed
+        Label: Transition Speed
         value: 1.9898999
         Min: 0
         Max: 3
         unitsFormat: '{0:0.00}'
     00000009:
-      type: {class: ToggleSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: BoolSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Invert Swivel
+        Label: Invert Swivel
         IsOn: 0

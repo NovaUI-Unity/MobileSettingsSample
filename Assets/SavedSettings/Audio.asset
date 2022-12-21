@@ -23,49 +23,49 @@ MonoBehaviour:
   references:
     version: 1
     00000000:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Master
+        Label: Master
         value: 60
         Min: 0
         Max: 100
         unitsFormat: '{0:00}%'
     00000001:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Gameplay
+        Label: Gameplay
         value: 30
         Min: 0
         Max: 100
         unitsFormat: '{0:00}%'
     00000002:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Music - Playlists
+        Label: Music - Playlists
         value: 0
         Min: 0
         Max: 100
         unitsFormat: '{0:00}%'
     00000003:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Music - Gameplay
+        Label: Music - Gameplay
         value: 0
         Min: 0
         Max: 100
         unitsFormat: '{0:00}%'
     00000004:
-      type: {class: SliderSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: FloatSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Ambient
+        Label: Ambient
         value: 100
         Min: 0
         Max: 100
         unitsFormat: '{0:00}%'
     00000005:
-      type: {class: DropdownSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
+      type: {class: MultiOptionSetting, ns: NovaSamples.SettingsMenu, asm: Assembly-CSharp}
       data:
-        label: Output
+        Label: Output
         SelectedIndex: 0
         Options:
         - Headphones

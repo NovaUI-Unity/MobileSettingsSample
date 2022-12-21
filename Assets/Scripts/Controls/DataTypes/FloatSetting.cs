@@ -7,14 +7,8 @@ namespace NovaSamples.SettingsMenu
     /// A data structure used to store the state of a slider UI control.
     /// </summary>
     [Serializable]
-    public class SliderSetting : ISetting
+    public class FloatSetting : Setting
     {
-        [SerializeField]
-        [Tooltip("The label to indicate the end-user setting the slider will configure.")]
-        private string label;
-
-        public string Label { get => label; set => label = value; }
-
         [SerializeField]
         [Tooltip("The numeric value associated with the slider.")]
         private float value;

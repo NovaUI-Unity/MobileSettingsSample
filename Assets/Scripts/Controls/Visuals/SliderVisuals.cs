@@ -4,7 +4,7 @@ using UnityEngine;
 namespace NovaSamples.SettingsMenu
 {
     /// <summary>
-    /// The <see cref="ItemVisuals"/> type used to display a draggable <see cref="SliderSetting"/> control.
+    /// The <see cref="ItemVisuals"/> type used to display a draggable <see cref="FloatSetting"/> control.
     /// </summary>
     [System.Serializable]
     public class SliderVisuals : ItemVisuals

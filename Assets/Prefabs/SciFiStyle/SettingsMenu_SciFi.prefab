@@ -1,0 +1,2388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4309253531162358568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6211972846748512746}
+  - component: {fileID: 4215921422304905168}
+  - component: {fileID: 490020787229542429}
+  - component: {fileID: 5888879247518856927}
+  m_Layer: 0
+  m_Name: Scrollbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6211972846748512746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309253531162358568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 908, y: 0.45200002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4856582655125897620}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215921422304905168
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309253531162358568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &490020787229542429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309253531162358568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 40
+        Type: 0
+      Y:
+        Raw: 1
+        Type: 1
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: -72
+        Type: 0
+      Y:
+        Raw: -0.45200002
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Padding:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 1
+      Y: 1
+      Z: 0
+    AutoSize:
+      X: 0
+      Y: 0
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 0
+    Spacing:
+      Raw: 0
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: -1
+    Offset: 0
+  visibility:
+    ZIndex: 1
+    BlockType: 1
+    Visible: 1
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1, y: 1, z: 0}
+  visuals:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    CornerRadius:
+      Raw: 4
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 0, g: 0.6666665, b: 1, a: 1}
+      Center:
+        X:
+          Raw: 0.5
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Radius:
+        X:
+          Raw: 1
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      Enabled: 1
+    Border:
+      Color: {r: 0, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0.01
+        Type: 1
+      Enabled: 1
+      Direction: 2
+    Shadow:
+      Color: {r: 0, g: 1, b: 1, a: 1}
+      Width:
+        Raw: 0
+        Type: 0
+      Blur:
+        Raw: 8
+        Type: 0
+      Offset:
+        X:
+          Raw: 0
+          Type: 0
+        Y:
+          Raw: 0
+          Type: 0
+      Enabled: 1
+      Direction: 1
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 1
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!114 &5888879247518856927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309253531162358568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0e5f112b0a05b43b4ba50233a47743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstructDrags: 0
+  DragThreshold: 1
+  LowAccuracyDragThreshold: 30
+  ClickBehavior: 0
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+  draggable:
+    X: 0
+    Y: 1
+    Z: 0
+--- !u!1 &4856582655075684418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4856582655075684419}
+  - component: {fileID: 9115101811498583380}
+  - component: {fileID: 4856582655075684416}
+  - component: {fileID: 3019753479419826270}
+  m_Layer: 0
+  m_Name: TabBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4856582655075684419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655075684418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4856582656469502274}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9115101811498583380
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655075684418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4856582655075684416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655075684418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 1920
+        Type: 0
+      Y:
+        Raw: 100
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: 0
+        Type: 0
+      Y:
+        Raw: 170
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Padding:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 0
+      Y: 1
+      Z: 0
+    AutoSize:
+      X: 0
+      Y: 0
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 1
+    Spacing:
+      Raw: 10
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: 0
+    Offset: 0
+  visibility:
+    ZIndex: 0
+    BlockType: 1
+    Visible: 1
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1, y: 1, z: 0}
+  visuals:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    CornerRadius:
+      Raw: 0
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 1, g: 1, b: 1, a: 1}
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Radius:
+        X:
+          Raw: 0.5
+          Type: 1
+        Y:
+          Raw: 0.5
+          Type: 1
+      Rotation: 0
+      Enabled: 0
+    Border:
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0.1
+        Type: 1
+      Enabled: 0
+      Direction: 1
+    Shadow:
+      Color: {r: 0, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0
+        Type: 1
+      Blur:
+        Raw: 0.1
+        Type: 1
+      Offset:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Enabled: 0
+      Direction: 0
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 0
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!114 &3019753479419826270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655075684418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23569ec8e3ccb44f93ff9101c870fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listItemPrefabs:
+  - {fileID: 8418816427444249511, guid: 35d5fe3ae0b19472e9fb436ca1dfc2bb, type: 3}
+  outOfViewDistance: 0
+  _uiBlock: {fileID: 0}
+--- !u!1 &4856582655125897623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4856582655125897620}
+  - component: {fileID: 5601088149615627719}
+  - component: {fileID: 4856582655125897621}
+  m_Layer: 0
+  m_Name: Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4856582655125897620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655125897623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -60, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7090760598027502486}
+  - {fileID: 6211972846748512746}
+  m_Father: {fileID: 4856582655538831793}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5601088149615627719
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655125897623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4856582655125897621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655125897623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 0.93043476
+        Type: 1
+      Y:
+        Raw: 600
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: 0
+        Type: 0
+      Y:
+        Raw: 280
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Padding:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 64
+        Type: 0
+      Right:
+        Raw: 64
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 0
+      Y: 1
+      Z: 0
+    AutoSize:
+      X: 1
+      Y: 0
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 0
+    Spacing:
+      Raw: 40
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: -1
+    Offset: 0
+  visibility:
+    ZIndex: 0
+    BlockType: 1
+    Visible: 1
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1, y: 1, z: 0}
+  visuals:
+    Color: {r: 0, g: 0.664474, b: 1, a: 1}
+    CornerRadius:
+      Raw: 4
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 0, g: 0.1333334, b: 0.2, a: 1}
+      Center:
+        X:
+          Raw: 0
+          Type: 0
+        Y:
+          Raw: -0.5
+          Type: 1
+      Radius:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 1.5
+          Type: 1
+      Rotation: 0
+      Enabled: 1
+    Border:
+      Color: {r: 0, g: 0.6666665, b: 1, a: 1}
+      Width:
+        Raw: 4
+        Type: 0
+      Enabled: 1
+      Direction: 2
+    Shadow:
+      Color: {r: 0, g: 0.13333334, b: 0.2, a: 1}
+      Width:
+        Raw: 0.04
+        Type: 1
+      Blur:
+        Raw: 40
+        Type: 0
+      Offset:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Enabled: 1
+      Direction: 1
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 1
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!1 &4856582655538831794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4856582655538831793}
+  - component: {fileID: 519368553855347420}
+  - component: {fileID: 4856582655538831795}
+  - component: {fileID: 6576139455548984682}
+  - component: {fileID: 2620532834112956333}
+  m_Layer: 0
+  m_Name: SettingsMenu_SciFi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4856582655538831793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655538831794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.94}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_Children:
+  - {fileID: 4856582656469502274}
+  - {fileID: 4856582655125897620}
+  - {fileID: 4450976897101359548}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519368553855347420
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655538831794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4856582655538831795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655538831794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 1920
+        Type: 0
+      Y:
+        Raw: 1080
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: 0
+        Type: 0
+      Y:
+        Raw: 0
+        Type: 0
+      Z:
+        Raw: 0.94
+        Type: 0
+    Padding:
+      Left:
+        Raw: 40
+        Type: 0
+      Right:
+        Raw: 40
+        Type: 0
+      Bottom:
+        Raw: 40
+        Type: 0
+      Top:
+        Raw: 20
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 0
+      Y: 0
+      Z: 0
+    AutoSize:
+      X: 0
+      Y: 0
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 0
+    Spacing:
+      Raw: 0
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: -1
+    Offset: 0
+  visibility:
+    ZIndex: 0
+    BlockType: 1
+    Visible: 1
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1920, y: 1080, z: 0}
+  visuals:
+    Color: {r: 0, g: 0.13076925, b: 0.2, a: 1}
+    CornerRadius:
+      Raw: 0
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 0.1614902, g: 0.35709813, b: 0.45490196, a: 1}
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: -0.5
+          Type: 1
+      Radius:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 1
+          Type: 1
+      Rotation: 0
+      Enabled: 1
+    Border:
+      Color: {r: 0.2239496, g: 0.37142864, b: 0.65, a: 1}
+      Width:
+        Raw: 5
+        Type: 0
+      Enabled: 0
+      Direction: 2
+    Shadow:
+      Color: {r: 0, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0
+        Type: 1
+      Blur:
+        Raw: 0.1
+        Type: 1
+      Offset:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Enabled: 0
+      Direction: 0
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 1
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!114 &6576139455548984682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655538831794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd68da78ed32f684087516a4fe008ad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIRoot: {fileID: 4856582655538831795}
+  TabBar: {fileID: 3019753479419826270}
+  SettingsTabs:
+  - {fileID: 11400000, guid: c754c16913176434aaeee9b28093d375, type: 2}
+  - {fileID: 11400000, guid: 686f58f1ed547fa4f9dc640b8278c080, type: 2}
+  - {fileID: 11400000, guid: 542b93ef001f1294d8ee4c2b69e8e3b0, type: 2}
+  - {fileID: 11400000, guid: 6088d59bf838bb446bc526a02962daae, type: 2}
+  - {fileID: 11400000, guid: 2e178abcb7396ec42b1a9844535e8d98, type: 2}
+  SettingsList: {fileID: 9094960128914283918}
+  SettingsScroller: {fileID: 4159123449860992169}
+  BackButton: {fileID: 757773787643471682}
+--- !u!114 &2620532834112956333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582655538831794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0e5f112b0a05b43b4ba50233a47743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstructDrags: 0
+  DragThreshold: 1
+  LowAccuracyDragThreshold: 30
+  ClickBehavior: 2
+  navigable: 1
+  onSelect: 0
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+  draggable:
+    X: 0
+    Y: 0
+    Z: 0
+--- !u!1 &4856582656469502285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4856582656469502274}
+  - component: {fileID: 8187678957969316499}
+  - component: {fileID: 4856582656469502275}
+  - component: {fileID: 384464012738884880}
+  m_Layer: 0
+  m_Name: Header
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4856582656469502274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656469502285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 385, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2548334665872075815}
+  - {fileID: 4856582655075684419}
+  m_Father: {fileID: 4856582655538831793}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8187678957969316499
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656469502285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4856582656469502275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656469502285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 1920
+        Type: 0
+      Y:
+        Raw: 270
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: 0
+        Type: 0
+      Y:
+        Raw: -0
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Padding:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 0
+      Y: 1
+      Z: 0
+    AutoSize:
+      X: 0
+      Y: 0
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 0
+    Spacing:
+      Raw: 0
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: -1
+    Offset: 0
+  visibility:
+    ZIndex: 0
+    BlockType: 1
+    Visible: 1
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1, y: 1, z: 0}
+  visuals:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    CornerRadius:
+      Raw: 0
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 1, g: 1, b: 1, a: 1}
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Radius:
+        X:
+          Raw: 0.5
+          Type: 1
+        Y:
+          Raw: 0.5
+          Type: 1
+      Rotation: 0
+      Enabled: 0
+    Border:
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0.1
+        Type: 1
+      Enabled: 0
+      Direction: 1
+    Shadow:
+      Color: {r: 0, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0
+        Type: 1
+      Blur:
+        Raw: 0.1
+        Type: 1
+      Offset:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Enabled: 0
+      Direction: 0
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 0
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!114 &384464012738884880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656469502285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b2a531bfddefda4e85a827979d250a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info:
+    SortingOrder: 1
+    RenderQueue: 3000
+    RenderOverOpaqueGeometry: 0
+--- !u!1 &4856582656813194046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4450976897101359548}
+  - component: {fileID: 7933758884955898984}
+  - component: {fileID: 4856582656813194044}
+  m_Layer: 0
+  m_Name: Footer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4450976897101359548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656813194046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -444.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 757773787643471685}
+  m_Father: {fileID: 4856582655538831793}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7933758884955898984
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656813194046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4856582656813194044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856582656813194046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 1
+        Type: 1
+      Y:
+        Raw: 103.16
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: 0
+        Type: 0
+      Y:
+        Raw: 11.115997
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Padding:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 0
+      Y: -1
+      Z: 0
+    AutoSize:
+      X: 1
+      Y: 2
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 1
+    Spacing:
+      Raw: 20
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: -1
+    Offset: 0
+  visibility:
+    ZIndex: 0
+    BlockType: 1
+    Visible: 1
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1, y: 1, z: 0}
+  visuals:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    CornerRadius:
+      Raw: 0
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 1, g: 1, b: 1, a: 1}
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Radius:
+        X:
+          Raw: 0.5
+          Type: 1
+        Y:
+          Raw: 0.5
+          Type: 1
+      Rotation: 0
+      Enabled: 0
+    Border:
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0.1
+        Type: 1
+      Enabled: 0
+      Direction: 1
+    Shadow:
+      Color: {r: 0, g: 0, b: 0, a: 1}
+      Width:
+        Raw: 0
+        Type: 1
+      Blur:
+        Raw: 0.1
+        Type: 1
+      Offset:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Enabled: 0
+      Direction: 0
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 0
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!1 &6062684820121005669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7090760598027502486}
+  - component: {fileID: 5474343108398669073}
+  - component: {fileID: 6558017952408580817}
+  - component: {fileID: 9094960128914283918}
+  - component: {fileID: 2278174007299665448}
+  - component: {fileID: 4159123449860992169}
+  m_Layer: 0
+  m_Name: ListView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7090760598027502486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062684820121005669}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4856582655125897620}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5474343108398669073
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062684820121005669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9117b6d975111c47b064a4373cc67ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6558017952408580817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062684820121005669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceID:
+    val: 0
+  layout:
+    Size:
+      X:
+        Raw: 1
+        Type: 1
+      Y:
+        Raw: 560
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Position:
+      X:
+        Raw: 0
+        Type: 0
+      Y:
+        Raw: 0
+        Type: 0
+      Z:
+        Raw: 0
+        Type: 0
+    Padding:
+      Left:
+        Raw: 10
+        Type: 0
+      Right:
+        Raw: 10
+        Type: 0
+      Bottom:
+        Raw: 10
+        Type: 0
+      Top:
+        Raw: 10
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    Margin:
+      Left:
+        Raw: 0
+        Type: 0
+      Right:
+        Raw: 0
+        Type: 0
+      Bottom:
+        Raw: 0
+        Type: 0
+      Top:
+        Raw: 0
+        Type: 0
+      Front:
+        Raw: 0
+        Type: 0
+      Back:
+        Raw: 0
+        Type: 0
+    SizeMinMax:
+      X:
+        Min: 0
+        Max: Infinity
+      Y:
+        Min: 0
+        Max: Infinity
+      Z:
+        Min: 0
+        Max: Infinity
+    PositionMinMax:
+      X:
+        Min: -Infinity
+        Max: Infinity
+      Y:
+        Min: -Infinity
+        Max: Infinity
+      Z:
+        Min: -Infinity
+        Max: Infinity
+    PaddingMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    MarginMinMax:
+      Left:
+        Min: 0
+        Max: Infinity
+      Right:
+        Min: 0
+        Max: Infinity
+      Bottom:
+        Min: 0
+        Max: Infinity
+      Top:
+        Min: 0
+        Max: Infinity
+      Front:
+        Min: 0
+        Max: Infinity
+      Back:
+        Min: 0
+        Max: Infinity
+    Alignment:
+      X: 0
+      Y: 0
+      Z: 0
+    AutoSize:
+      X: 1
+      Y: 0
+      Z: 0
+    RotateSize: 0
+    AspectRatio: {x: 0, y: 0, z: 0}
+    AspectRatioAxis: 0
+  autoLayout:
+    Axis: 2
+    Spacing:
+      Raw: 60
+      Type: 0
+    SpacingMinMax:
+      Min: 0
+      Max: Infinity
+    AutoSpace: 0
+    ReverseOrder: 0
+    alignment: 1
+    Offset: 0
+  visibility:
+    ZIndex: 0
+    BlockType: 1
+    Visible: 0
+  surface:
+    specularColor: {r: 1, g: 1, b: 1, a: 1}
+    param1: 0.5
+    param2: 0.5
+    LightingModel: 0
+    ShadowCastingMode: 2
+    ReceiveShadows: 1
+  PreviewSize: {x: 1, y: 1, z: 0}
+  visuals:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    CornerRadius:
+      Raw: 25
+      Type: 0
+    RadialFill:
+      Center:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Rotation: 0
+      FillAngle: 90
+      Enabled: 0
+    Gradient:
+      Color: {r: 1, g: 1, b: 1, a: 0.75686276}
+      Center:
+        X:
+          Raw: 0
+          Type: 0
+        Y:
+          Raw: 0.5
+          Type: 1
+      Radius:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 1
+          Type: 1
+      Rotation: 0
+      Enabled: 1
+    Border:
+      Color: {r: 0.2239496, g: 0.37142864, b: 0.65, a: 1}
+      Width:
+        Raw: 0.005
+        Type: 0
+      Enabled: 0
+      Direction: 1
+    Shadow:
+      Color: {r: 1, g: 1, b: 1, a: 1}
+      Width:
+        Raw: 0
+        Type: 1
+      Blur:
+        Raw: 20
+        Type: 0
+      Offset:
+        X:
+          Raw: 0
+          Type: 1
+        Y:
+          Raw: 0
+          Type: 1
+      Enabled: 1
+      Direction: 1
+    Image:
+      Adjustment:
+        CenterUV: {x: 0, y: 0}
+        UVScale: {x: 1, y: 1}
+        PixelsPerUnitMultiplier: 1
+        scaleMode: 1
+      Mode: 1
+    SoftenEdges: 1
+    FillEnabled: 0
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+--- !u!114 &9094960128914283918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062684820121005669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23569ec8e3ccb44f93ff9101c870fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listItemPrefabs:
+  - {fileID: 7623978411554998604, guid: 4b9a80865843a43a782e407318bbfe32, type: 3}
+  - {fileID: 7001414686792611882, guid: 6313fa9626ce248ebbf11ddc9493afae, type: 3}
+  - {fileID: 657701952853373594, guid: f918d6ea8f27846aea9196a525862f30, type: 3}
+  outOfViewDistance: 0
+  _uiBlock: {fileID: 0}
+--- !u!114 &2278174007299665448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062684820121005669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388f1fceb3d2beb408ed2d18963ab884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Clip: 1
+  maskTexture: {fileID: 0}
+--- !u!114 &4159123449860992169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062684820121005669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2541297f90fa9c14eab33d90c1489959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstructDrags: 0
+  DragThreshold: 1
+  LowAccuracyDragThreshold: 30
+  ClickBehavior: 0
+  navigable: 1
+  onSelect: 2
+  autoSelect: 0
+  Navigation:
+    Left:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Right:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Down:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Up:
+      Type: 0
+      Fallback: 0
+      Target: {fileID: 0}
+    Forward:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+    Back:
+      Type: 1
+      Fallback: 1
+      Target: {fileID: 0}
+  OverscrollEffect: 0
+  VectorScrollMultiplier: 10
+  dragScrolling: 1
+  vectorScrolling: 1
+  scrollbarVisual: {fileID: 490020787229542429}
+  draggableScrollbar: 1
+--- !u!1001 &3419398444192317528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4856582656469502274}
+    m_Modifications:
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.440063
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930406961925901728, guid: a713a8a50563b4592a56fd26217a3017,
+        type: 3}
+      propertyPath: m_Name
+      value: SettingsRibbon_SciFi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a713a8a50563b4592a56fd26217a3017, type: 3}
+--- !u!4 &2548334665872075815 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 876412077756198015, guid: a713a8a50563b4592a56fd26217a3017,
+    type: 3}
+  m_PrefabInstance: {fileID: 3419398444192317528}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4669620716027924564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4450976897101359548}
+    m_Modifications:
+    - target: {fileID: 5353078404016060176, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_Name
+      value: SettingsButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -824.69165
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060182, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: layout.Size.X.Raw
+      value: 222.27084
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060182, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: layout.Size.Y.Raw
+      value: 103.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060182, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: layout.Alignment.X
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353078404016060182, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+        type: 3}
+      propertyPath: layout.Position.X.Raw
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8f2622c1ee0c46c393c301665bb4fdc, type: 3}
+--- !u!4 &757773787643471685 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5353078404016060177, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4669620716027924564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &757773787643471682 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5353078404016060182, guid: d8f2622c1ee0c46c393c301665bb4fdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4669620716027924564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

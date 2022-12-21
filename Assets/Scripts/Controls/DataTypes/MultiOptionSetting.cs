@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace NovaSamples.SettingsMenu
 {
@@ -8,15 +7,9 @@ namespace NovaSamples.SettingsMenu
     /// A data structure used to store the state of a dropdown UI control.
     /// </summary>
     [Serializable]
-    public class DropdownSetting : ISetting
+    public class MultiOptionSetting : Setting
     {
         public const string NothingSelected = "None";
-
-        [SerializeField]
-        [Tooltip("The label to indicate the end-user setting the dropdown will configure.")]
-        private string label;
-
-        public string Label { get => label; set => label = value; }
 
         /// <summary>
         /// The name of the dropdown's selected option, i.e. the value

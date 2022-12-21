@@ -1,5 +1,4 @@
 using System;
-using UnityEngine;
 
 namespace NovaSamples.SettingsMenu
 {
@@ -7,13 +6,8 @@ namespace NovaSamples.SettingsMenu
     /// A data structure used to store the state of a toggle UI control.
     /// </summary>
     [Serializable]
-    public class ToggleSetting : ISetting
+    public class BoolSetting : Setting
     {
-        [SerializeField]
-        [Tooltip("The label to indicate the end-user setting the slider will configure.")]
-        private string label;
-        public string Label { get => label; set => label = value; }
-
         /// <summary>
         /// The toggle state of this togglable setting.
         /// </summary>
